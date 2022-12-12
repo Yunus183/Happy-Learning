@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed, scroll;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    background: #000;
+    height: 10vh;
+}
+.navbar div{
+    background-image: none;
+}
+.list{
+    background-image: none;
+}
+.list-item{
+    background-image: none;
+}
+
+.navbar img{
+    background-image: none;
+    margin-left: 40px;
+    width: 70px;
+    height: 25px;
+    margin-top: 20%;
+}
+.line{ 
+    margin-top: 2%;
+    margin-left: 35px;
+    height: 30px;
+   border-left: solid 2px gray;
+
+}
+.grow-list ul{
+    margin-left: 25px;
+    margin-top: 5px;
+    display: flex;
+    margin-top: ;
+}
+.grow-list ul li{
+    list-style: none;
+    margin: 15px;
+    color: aliceblue;
+}
+.button-small{
+    border: none;
+    border-radius: 7px;
+    background: rgb(219, 52, 211);
+    position: absolute;
+    right: 45px;
+    top: 20px;
+    padding: 5px;
+    font-size: 10px;
+    width: 100px;
+    color: bisque;
+}
+
+.hero{
+    text-align: center;
+ margin-top: 10%;
+ }
+
+ .hero-heading{
+    font-size: 50px;
+    width: 500px;
+    margin-left: 25%;
+    color: aliceblue;
+
+ }
+
+ .hero-description{
+    margin-top: 10px;
+    color: aliceblue;
+
+ }
+
+ .button-large{
+    border: none;
+    margin-top: 20px;
+    padding: 10px 35px;
+    font-weight: 500;
+    font-size: 17px;
+    background: rgb(219, 52, 211);
+    color: aliceblue;
+ }
+
+
