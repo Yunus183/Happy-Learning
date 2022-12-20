@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+
+body {
+    background-color: rgb(21, 22, 22);
+}
+
+.Container {
+    margin-top: 3%;
+    background-color: rgb(51, 43, 43);
+}
+
+.navbar {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+}
+
+.navbar img {
+    margin-top: 1%;
+    width: 90px;
+    height: 28px;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    color: rgb(145, 133, 133);
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 5%;
+    font-size: 10px;
+}
+.home:hover{
+    color: white;
+}
+
+.pri:hover{
+    color: white;
+}
+
+.con:hover{
+    color: white;
+}
+
+.term:hover{
+    color: white;
+}
+
+
+.button {
+    border: 1px solid rgb(131, 131, 63);
+    background: none;
+    color: rgb(119, 119, 59);
+    border-radius: 7px;
+    padding: 6px 20px;
+    font-size: 10PX;
+    font-weight: 900;
+}
+
+.Main-section {
+    margin-top: 5%;
+    display: flex;
+    margin-left: 15%;
+}
+
+.Main-section h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(211, 205, 198);
+    ;
+    width: 350px;
+}
+
+.Main-section p {
+    margin-left: 15%;
+    margin-top: 10%;
+    color: rgb(190, 183, 175);
+    font-size: 12px;
+    width: 265px;
+    height: 100px;
+}
+
+div img {
+    justify-content: center;
+    width: 640px;
+    margin-top: 1%;
+    margin-left: 18%;
+    height: 310px;
+}
